@@ -41,11 +41,11 @@ The original dataset was provided in Excel format and later converted into CSV f
 ---
 
 ## 📁 Project Structure
-data.xlsx
-data.csv
-data_cleaned.csv
-eda_sql_analysis.ipynb
-README.md
+- data.xlsx
+- data.csv
+- data_cleaned.csv
+- eda_sql_analysis.ipynb
+- README.md
 
 ---
 
