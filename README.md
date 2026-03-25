@@ -63,6 +63,12 @@ This project analyzes customer data to identify key churn drivers and suggest st
 
 ---
 
+## 📊 Sample Visualization
+
+![Churn Analysis](churn_chart.png)
+
+---
+
 ## 🔮 Future Work
 - Build Power BI dashboard  
 - Develop ML model for churn prediction  
