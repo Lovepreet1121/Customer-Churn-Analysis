@@ -1,67 +1,74 @@
-# Telco Customer Churn – EDA & SQL Analysis
+# Customer Churn Analysis & Retention Strategy (SQL + Python)
 
-## 📌 Project Overview
-This project focuses on performing **Exploratory Data Analysis (EDA)** and **SQL-based analysis** on a telecom customer churn dataset to understand customer behavior, churn patterns, and key business insights.
-
-The project excludes dashboarding for now (Power BI will be added later).
-
----
-
-## 📂 Dataset Description
-The original dataset was provided in Excel format and later converted into CSV for analysis.
-
-### Files:
-- `data.xlsx` – Original dataset
-- `data.csv` – Converted CSV version
-- `data_cleaned.csv` – Cleaned dataset after preprocessing
+## 📌 Problem
+Telecom companies lose customers (churn), which directly impacts revenue.  
+This project analyzes customer data to identify key churn drivers and suggest strategies to reduce customer loss.
 
 ---
 
-## 🛠️ Tools & Technologies
+## 🛠️ Tools Used
 - Python (Pandas, NumPy, Matplotlib, Seaborn)
-- SQL (via Python – SQLite)
+- SQL (SQLite via Python)
 - Jupyter Notebook
 
 ---
 
-## 📊 Analysis Performed
-### Exploratory Data Analysis (EDA)
-- Data inspection and cleaning
-- Handling missing values
-- Customer churn distribution
-- Contract type vs churn
-- Monthly charges and churn trends
-
-### SQL Analysis
-- Churn rate calculation
-- Contract-based churn analysis
-- Customer segmentation queries
-- Aggregations and filtering using SQL queries inside Python
+## 📂 Dataset
+- Telecom customer dataset (Excel → CSV → Cleaned dataset)
+- Includes customer demographics, contract type, charges, and churn status
 
 ---
 
-## 📁 Project Structure
-- data.xlsx
-- data.csv
-- data_cleaned.csv
-- eda_sql_analysis.ipynb
-- README.md
+## 🔍 Key Analysis Performed
+### Exploratory Data Analysis (EDA)
+- Cleaned and preprocessed raw data
+- Analyzed churn distribution
+- Studied relationship between:
+  - Contract type and churn
+  - Monthly charges and churn
+  - Tenure and churn behavior
+
+### SQL Analysis
+- Calculated overall churn rate
+- Performed contract-based churn segmentation
+- Wrote queries for customer grouping and aggregation
+
+---
+
+## 📊 Key Insights (IMPORTANT)
+- Customers on **monthly contracts** have significantly higher churn rates  
+- Customers with **higher monthly charges** are more likely to churn  
+- Customers with **longer tenure** show strong retention  
+
+---
+
+## 💡 Business Recommendations (THIS MAKES YOU STAND OUT)
+- Encourage users to shift from monthly to long-term contracts (discount strategy)  
+- Target high-charge customers with personalized retention offers  
+- Focus retention campaigns on new customers (low tenure group)  
+
+---
+
+## 📈 Outcome
+- Identified major factors influencing churn  
+- Provided actionable strategies to improve customer retention  
+- Built a strong foundation for predictive modeling  
 
 ---
 
 ## 🚀 How to Run
-1. Clone the repository
-2. Open `eda_sql_analysis.ipynb` in Jupyter Notebook
-3. Run cells sequentially
+1. Clone the repository  
+2. Open `eda_sql_analysis.ipynb`  
+3. Run all cells  
 
 ---
 
 ## 🔮 Future Work
-- Power BI dashboard for churn visualization
-- Machine learning model for churn prediction
+- Build Power BI dashboard  
+- Develop ML model for churn prediction  
 
 ---
 
 ## 👤 Author
-**Love Preet**  
+Lovepreet  
 B.Tech Computer Science & Engineering
